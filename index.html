@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width">
@@ -16,17 +17,34 @@
 	body { background-color: #ffffff; }
     .hello 
     { 
-        font-size: 42; 
+        font-size: 26;
+        font-family: 'Comic Sans MS';
         width: 100%;
         margin-top: 2em;
         text-align: center;
-        color: blue;
+        color: black;
+    }
+    img
+    {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    opacity: 0;
+    transition : opacity, 1s;
+    vertical-align: center;
+    justify-content: center;
+    left : 55px;
+    padding-top : 25px
+    }
+    img:hover
+    {
+    opacity: 1;
     }
 </style>
 
 <body onload="app.Start()">
 
-	<div class=hello> Hello World! </div>
-	
+	<div class=hello> not u actually clicking the link BYE ;-; </div>
+	<div style="display:flex ;flex:1;flex-direction:column;justify-content:center"><img src="Img/BAHAH.png"></div>
 </body>
 </html>
